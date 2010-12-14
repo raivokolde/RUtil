@@ -1,0 +1,12 @@
+Package: RUtil
+Version: 0.01
+License: GPL (>= 2)
+Description: A package collecting useful R code snippets from different
+        projects made by Raivo Kolde.
+Title: Raivos util functions
+Author: Raivo Kolde <rkolde@gmail.com>
+Maintainer: Raivo Kolde <rkolde@gmail.com>
+Depends: R (>= 2.10)
+Imports: plyr, reshape, stringr, ggplot2
+Collate: 'make_unique_comb.r' 'RUtil-package.r'
+Built: R 2.11.1; ; 2010-12-14 14:18:31 UTC; unix

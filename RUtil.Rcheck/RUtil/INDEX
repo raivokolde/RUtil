@@ -1,0 +1,3 @@
+RUtil-package           A set of useful functions by Raivo...
+make_unique_comb        Function for producing all unique combinations
+                        of elements from one vector.
