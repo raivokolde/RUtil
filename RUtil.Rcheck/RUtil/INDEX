@@ -1,3 +1,6 @@
 RUtil-package           A set of useful functions by Raivo...
+gconvert                Convert gene ID-s.
+gorth                   Find orthologs.
+gprofiler               Annotate gene list functionally.
 make_unique_comb        Function for producing all unique combinations
                         of elements from one vector.

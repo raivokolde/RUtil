@@ -85,20 +85,34 @@ No file Rd2.aux.
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
 ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (156.78088pt too wide) in paragraph at lines 85--85
+ []\T1/pcr/m/n/10 gorth(genelist, source_organism="mmusculus", target_organism=
+"hsapiens", mthreshold=3, df=T)[] 
+[2]
+Overfull \hbox (155.58026pt too wide) in paragraph at lines 124--124
+ []\T1/pcr/m/n/9 gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "m
+musculus", target_organism = "hsapiens")[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [3]
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 136--136
+ []\T1/pcr/m/n/10 gprofiler(organism="scerevisiae", query, ordered_query=0, sig
+nificant=1)[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [4]
 No file Rd2.ind.
-[2] (./Rd2.aux) ){/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/local/texlive/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
-local/texlive/2009/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/t
-exlive/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/200
-9/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (2 pages, 68337 bytes).
+[5] (./Rd2.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2009/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2009/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2009/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (5 pages, 85459 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2009] (kpathsea + Thai support).
-Scanning input file Rd2.idx....done (2 entries accepted, 0 rejected).
-Sorting entries....done (2 comparisons).
-Generating output file Rd2.ind....done (9 lines written, 0 warnings).
+Scanning input file Rd2.idx....done (5 entries accepted, 0 rejected).
+Sorting entries....done (13 comparisons).
+Generating output file Rd2.ind....done (15 lines written, 0 warnings).
 Output written in Rd2.ind.
 Transcript written in Rd2.ilg.
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009)
@@ -185,15 +199,29 @@ Writing index file Rd2.idx
 (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
-ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Rd2.ind [2] [3])
-(./Rd2.aux) ){/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/local/texlive/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loca
-l/texlive/2009/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
-ve/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (3 pages, 70776 bytes).
+ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (156.78088pt too wide) in paragraph at lines 85--85
+ []\T1/pcr/m/n/10 gorth(genelist, source_organism="mmusculus", target_organism=
+"hsapiens", mthreshold=3, df=T)[] 
+[2]
+Overfull \hbox (155.58026pt too wide) in paragraph at lines 124--124
+ []\T1/pcr/m/n/9 gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "m
+musculus", target_organism = "hsapiens")[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [3]
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 136--136
+ []\T1/pcr/m/n/10 gprofiler(organism="scerevisiae", query, ordered_query=0, sig
+nificant=1)[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [4] (./Rd2.ind
+[5] [6]) (./Rd2.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2009/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2009/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2009/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 89681 bytes).
 Transcript written on Rd2.log.
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009)
 entering extended mode
@@ -279,15 +307,29 @@ Writing index file Rd2.idx
 (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
-ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Rd2.ind [2] [3])
-(./Rd2.aux) ){/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/local/texlive/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loca
-l/texlive/2009/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
-ve/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (3 pages, 71749 bytes).
+ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (156.78088pt too wide) in paragraph at lines 85--85
+ []\T1/pcr/m/n/10 gorth(genelist, source_organism="mmusculus", target_organism=
+"hsapiens", mthreshold=3, df=T)[] 
+[2]
+Overfull \hbox (155.58026pt too wide) in paragraph at lines 124--124
+ []\T1/pcr/m/n/9 gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "m
+musculus", target_organism = "hsapiens")[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [3]
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 136--136
+ []\T1/pcr/m/n/10 gprofiler(organism="scerevisiae", query, ordered_query=0, sig
+nificant=1)[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [4] (./Rd2.ind
+[5] [6]) (./Rd2.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2009/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2009/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2009/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 90262 bytes).
 Transcript written on Rd2.log.
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009)
 entering extended mode
@@ -373,16 +415,30 @@ Writing index file Rd2.idx
 (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
-ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Rd2.ind [2] [3])
-(./Rd2.aux) ){/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/local/texlive/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loca
-l/texlive/2009/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
-ve/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (3 pages, 71749 bytes).
+ive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (156.78088pt too wide) in paragraph at lines 85--85
+ []\T1/pcr/m/n/10 gorth(genelist, source_organism="mmusculus", target_organism=
+"hsapiens", mthreshold=3, df=T)[] 
+[2]
+Overfull \hbox (155.58026pt too wide) in paragraph at lines 124--124
+ []\T1/pcr/m/n/9 gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "m
+musculus", target_organism = "hsapiens")[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [3]
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 136--136
+ []\T1/pcr/m/n/10 gprofiler(organism="scerevisiae", query, ordered_query=0, sig
+nificant=1)[] 
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def) [4] (./Rd2.ind
+[5] [6]) (./Rd2.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2009/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2009/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2009/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (6 pages, 90262 bytes).
 Transcript written on Rd2.log.
 Saving output to 'RUtil-manual.pdf' ...
 Done
-You may want to clean up by 'rm -rf /var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-//Rd2dvi2600426325'
+You may want to clean up by 'rm -rf /var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-//Rd2dvi3111226216'

@@ -7,7 +7,6 @@
 #' @return  A matrix with two columns. Rownames are the element names pasted togeteher and separated by 
 #' "_". The rows are ordered alphabetically according to rownames. The two values in each row are also 
 #' ordered alphabetically.
-#' @references  Ref1
 #' @author  Raivo Kolde <rkolde@@gmail.com>
 #' @examples
 #'  make_unique_comb(letters[1:3])

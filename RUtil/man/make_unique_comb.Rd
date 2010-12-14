@@ -8,7 +8,6 @@
 \value{A matrix with two columns. Rownames are the element names pasted togeteher and separated by 
 "_". The rows are ordered alphabetically according to rownames. The two values in each row are also 
 ordered alphabetically.}
-\references{Ref1}
 \author{Raivo Kolde <rkolde@gmail.com>}
 \arguments{\item{l}{vector of some values}
 }

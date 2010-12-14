@@ -5,6 +5,48 @@ library('RUtil')
 
 assign(".oldSearch", search(), pos = 'CheckExEnv')
 cleanEx()
+nameEx("gconvert")
+### * gconvert
+
+flush(stderr()); flush(stdout())
+
+### Name: gconvert
+### Title: Convert gene ID-s.
+### Aliases: gconvert
+
+### ** Examples
+gconvert(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
+
+
+cleanEx()
+nameEx("gorth")
+### * gorth
+
+flush(stderr()); flush(stdout())
+
+### Name: gorth
+### Title: Find orthologs.
+### Aliases: gorth
+
+### ** Examples
+gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "mmusculus", target_organism = "hsapiens")
+
+
+cleanEx()
+nameEx("gprofiler")
+### * gprofiler
+
+flush(stderr()); flush(stdout())
+
+### Name: gprofiler
+### Title: Annotate gene list functionally.
+### Aliases: gprofiler
+
+### ** Examples
+gprofiler(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
+
+
+cleanEx()
 nameEx("make_unique_comb")
 ### * make_unique_comb
 
