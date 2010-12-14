@@ -3,6 +3,6 @@
 #' @name RUtil-package
 #' @docType package
 #' 
-#' @import stringr plyr ggplot2 reshape
+#' @import stringr ggplot2
 #' 
 NA

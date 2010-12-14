@@ -15,11 +15,9 @@ The following object(s) are masked from 'package:plyr':
 
     round_any
 
-Warning: replacing previous import ‘round_any’ when loading ‘reshape’
 ** help
 *** installing help indices
 ** building package indices ...
 ** testing if installed package can be loaded
-Warning: replacing previous import ‘round_any’ when loading ‘reshape’
 
 * DONE (RUtil)

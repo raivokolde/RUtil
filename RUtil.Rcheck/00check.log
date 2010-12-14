@@ -7,11 +7,7 @@
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking for executable files ... OK
-* checking whether package 'RUtil' can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import ‘round_any’ when loading ‘reshape’
-  Warning: replacing previous import ‘round_any’ when loading ‘reshape’
-See '/Users/Kolde/Raivo/Projects/RUtil/RUtil.Rcheck/00install.out' for details.
+* checking whether package 'RUtil' can be installed ... OK
 * checking package directory ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK

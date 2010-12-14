@@ -32,7 +32,6 @@ The following object(s) are masked from 'package:plyr':
 
     round_any
 
-Warning: replacing previous import ‘round_any’ when loading ‘reshape’
 > 
 > assign(".oldSearch", search(), pos = 'CheckExEnv')
 > cleanEx()
@@ -57,7 +56,7 @@ b_c "b" "c"
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.849 0.008 0.856 0 0 
+Time elapsed:  0.849 0.009 0.858 0 0 
 > grDevices::dev.off()
 null device 
           1 
