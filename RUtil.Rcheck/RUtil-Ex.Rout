@@ -54,6 +54,20 @@ The following object(s) are masked from 'package:plyr':
 > 
 > 
 > cleanEx()
+> nameEx("generate_gcocoa_query")
+> ### * generate_gcocoa_query
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: generate_gcocoa_query
+> ### Title: Generate query for g:Cocoa web tool...
+> ### Aliases: generate_gcocoa_query
+> 
+> ### ** Examples
+> glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+> 
+> 
+> cleanEx()
 > nameEx("gorth")
 > ### * gorth
 > 
@@ -277,7 +291,7 @@ b_c "b" "c"
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.185 0.017 3.069 0 0 
+Time elapsed:  1.108 0.016 3.003 0 0 
 > grDevices::dev.off()
 null device 
           1 

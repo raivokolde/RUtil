@@ -1,8 +1,7 @@
 Package: RUtil
 Version: 0.01
 License: GPL (>= 2)
-Description: A package collecting useful R code snippets from different projects made
-    by Raivo Kolde.
+Description: A package collecting useful R code snippets from different projects made by Raivo Kolde.
 Title: Raivos util functions
 Author: Raivo Kolde <rkolde@gmail.com>
 Maintainer: Raivo Kolde <rkolde@gmail.com>

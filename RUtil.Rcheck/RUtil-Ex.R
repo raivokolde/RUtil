@@ -19,6 +19,20 @@ gconvert(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
 
 
 cleanEx()
+nameEx("generate_gcocoa_query")
+### * generate_gcocoa_query
+
+flush(stderr()); flush(stdout())
+
+### Name: generate_gcocoa_query
+### Title: Generate query for g:Cocoa web tool...
+### Aliases: generate_gcocoa_query
+
+### ** Examples
+glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+
+
+cleanEx()
 nameEx("gorth")
 ### * gorth
 

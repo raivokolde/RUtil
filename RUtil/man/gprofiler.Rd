@@ -7,7 +7,7 @@
 \details{Wrapper for g:Profiler web toolkit for finding enrichments in gene lists.}
 \value{Data frame with the Enricment analysis results. If input consisted of several lists the corresponding list is indicated with a variable 'query number'}
 \references{J. Reimand, M. Kull, H. Peterson, J. Hansen, J. Vilo: g:Profiler - a web-based toolset for functional profiling of gene lists from large-scale experiments (2007) NAR 35 W193-W200}
-\author{Juri Reimand <jyri.reimand@ut.ee>, Raivo Kolde <rkolde@gmail.com>}
+\author{Juri Reimand <jyri.reimand@ut.ee>}
 \arguments{\item{organism}{gene list origin}
 \item{query}{vector of gene names or list of such vectors}
 \item{ordered_query}{when output gene lists are ranked one can use this option to get GSEA style 

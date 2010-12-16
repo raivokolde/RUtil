@@ -16,7 +16,7 @@
 #' frame is just a two column table with inputs and corrsponding outputs. The input names may be 
 #' duplicated.
 #' @references  J. Reimand, M. Kull, H. Peterson, J. Hansen, J. Vilo: g:Profiler -- a web-based toolset for functional profiling of gene lists from large-scale experiments (2007) NAR 35 W193-W200 
-#' @author  Raivo Kolde <rkolde@@gmail.com>
+#' @author  Raivo Kolde <rkolde@@gmail.com>, Juri Reimand <jyri.reimand@@ut.ee>
 #' @examples
 #'  gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "mmusculus", target_organism = "hsapiens")
 #' @export
@@ -72,7 +72,7 @@ gorth <- function(genelist, source_organism = "mmusculus", target_organism = "hs
 #' returned.
 #' @return Data frame with the Enricment analysis results. If input consisted of several lists the corresponding list is indicated with a variable 'query number'
 #' @references  J. Reimand, M. Kull, H. Peterson, J. Hansen, J. Vilo: g:Profiler - a web-based toolset for functional profiling of gene lists from large-scale experiments (2007) NAR 35 W193-W200
-#' @author  Juri Reimand <jyri.reimand@@ut.ee>, Raivo Kolde <rkolde@@gmail.com>
+#' @author  Juri Reimand <jyri.reimand@@ut.ee>
 #' @examples
 #'  gprofiler(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
 #' @export
@@ -134,6 +134,10 @@ gprofiler <- function(organism='scerevisiae', query, ordered_query=0, significan
 	split_query <- as.data.frame(split_query, colClasses=c("numeric"))
 	split_query[,3] <- as.numeric(gsub("e","E",split_query[,3]))
 	
+	if(is.list(query) & !is.null(names(query))){
+		split_query$query.number = names(query)[split_query$query.number]  
+	}
+	
 	return(split_query)
 }
 
@@ -191,5 +195,26 @@ gconvert = function(ids, organism="hsapiens", target="ENSG", df = T) {
 	return(resulting_mapping)
 }
 
+ 
+#' Generate query for g:Cocoa web tool
+#' 
+#' Function that prints out a g:Gogoa query string given a list of gene name vectors.
+#'
+#' @param glist a list of vectors of gene names			
+#' @return  Prints out the query string
+#' @author  Raivo Kolde <rkolde@@gmail.com>
+#' @examples
+#'  glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+#' @export
+generate_gcocoa_query = function(glist){
+	if(is.null(names(glist))){
+		names(glist) = paste("X", 1:length(glist), sep = "")
+	}
+	for(i in names(glist)){
+		cat(sprintf(">%s\n", i))
+		cat(int[[i]])
+		cat("\n\n")
+	}
+}
 
 

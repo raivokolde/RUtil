@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.6.29)  14 DEC 2010 16:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.6.29)  16 DEC 2010 12:36
 entering extended mode
  %&-line parsing enabled.
 **Rd2
@@ -696,41 +696,44 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 {/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+) [2]
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (156.78088pt too wide) in paragraph at lines 85--85
+Overfull \hbox (156.78088pt too wide) in paragraph at lines 121--121
  []\T1/pcr/m/n/10 gorth(genelist, source_organism="mmusculus", target_organism=
 "hsapiens", mthreshold=3, df=T)[] 
  []
 
-[2]
-Overfull \hbox (155.58026pt too wide) in paragraph at lines 124--124
+[3]
+Overfull \hbox (155.58026pt too wide) in paragraph at lines 160--160
  []\T1/pcr/m/n/9 gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "m
 musculus", target_organism = "hsapiens")[] 
  []
 
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) [3]
-Overfull \hbox (36.78088pt too wide) in paragraph at lines 136--136
+)
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 172--172
  []\T1/pcr/m/n/10 gprofiler(organism="scerevisiae", query, ordered_query=0, sig
 nificant=1)[] 
  []
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+[4] (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) [4] (./Rd2.ind
+) (./Rd2.ind
 [5] [6
 
 
 ]) (./Rd2.aux) ) 
 Here is how much of TeX's memory you used:
- 5502 strings out of 493848
- 78139 string characters out of 3149207
+ 5514 strings out of 493848
+ 78437 string characters out of 3149207
  142780 words of memory out of 3000000
- 8601 multiletter control sequences out of 15000+200000
+ 8602 multiletter control sequences out of 15000+200000
  38515 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 47i,5n,27p,268b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,6n,34p,268b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
 ocal/texlive/2009/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
@@ -738,9 +741,9 @@ xlive/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (6 pages, 90262 bytes).
+Output written on Rd2.pdf (6 pages, 94172 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

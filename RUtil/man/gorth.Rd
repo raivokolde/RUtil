@@ -14,7 +14,7 @@ most informative by selecting the most popular ones.}
 frame is just a two column table with inputs and corrsponding outputs. The input names may be 
 duplicated.}
 \references{J. Reimand, M. Kull, H. Peterson, J. Hansen, J. Vilo: g:Profiler -- a web-based toolset for functional profiling of gene lists from large-scale experiments (2007) NAR 35 W193-W200}
-\author{Raivo Kolde <rkolde@gmail.com>}
+\author{Raivo Kolde <rkolde@gmail.com>, Juri Reimand <jyri.reimand@ut.ee>}
 \arguments{\item{genelist}{list of gene names to be translated.}
 \item{source_organism}{organism of the input genes.}
 \item{target_organism}{name for the target organism.}

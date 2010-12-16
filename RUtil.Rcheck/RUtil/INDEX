@@ -1,5 +1,6 @@
 RUtil-package           A set of useful functions by Raivo...
 gconvert                Convert gene ID-s.
+generate_gcocoa_query   Generate query for g:Cocoa web tool...
 gorth                   Find orthologs.
 gprofiler               Annotate gene list functionally.
 make_unique_comb        Function for producing all unique combinations
