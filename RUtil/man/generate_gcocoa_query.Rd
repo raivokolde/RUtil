@@ -9,5 +9,6 @@
 \author{Raivo Kolde <rkolde@gmail.com>}
 \arguments{\item{glist}{a list of vectors of gene names}
 }
-\examples{glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))}
+\examples{glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+generate_gcocoa_query(glist)}
 

@@ -2,7 +2,7 @@
 * using R version 2.11.1 (2010-05-31)
 * using session charset: UTF-8
 * checking for file 'RUtil/DESCRIPTION' ... OK
-* this is package 'RUtil' version '0.01'
+* this is package 'RUtil' version '0.02'
 * checking package name space information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -26,8 +26,7 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-generate_gcocoa_query: no visible binding for global variable ‘int’
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK

@@ -5,6 +5,22 @@ library('RUtil')
 
 assign(".oldSearch", search(), pos = 'CheckExEnv')
 cleanEx()
+nameEx("bubbleplot")
+### * bubbleplot
+
+flush(stderr()); flush(stdout())
+
+### Name: bubbleplot
+### Title: Function to draw the bubbleplots - an alternative to Venn
+###   diagram...
+### Aliases: bubbleplot
+
+### ** Examples
+bubbleplot(list(Asadsa = sample(letters, 14), Gadsa = sample(letters, 9)))
+bubbleplot(list(Badsad = sample(letters, 16), Asadsa = sample(letters, 14), Gadsa = sample(letters, 9)))
+
+
+cleanEx()
 nameEx("gconvert")
 ### * gconvert
 
@@ -30,6 +46,7 @@ flush(stderr()); flush(stdout())
 
 ### ** Examples
 glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+generate_gcocoa_query(glist)
 
 
 cleanEx()

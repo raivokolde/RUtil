@@ -35,6 +35,22 @@ The following object(s) are masked from 'package:plyr':
 > 
 > assign(".oldSearch", search(), pos = 'CheckExEnv')
 > cleanEx()
+> nameEx("bubbleplot")
+> ### * bubbleplot
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: bubbleplot
+> ### Title: Function to draw the bubbleplots - an alternative to Venn
+> ###   diagram...
+> ### Aliases: bubbleplot
+> 
+> ### ** Examples
+> bubbleplot(list(Asadsa = sample(letters, 14), Gadsa = sample(letters, 9)))
+> bubbleplot(list(Badsad = sample(letters, 16), Asadsa = sample(letters, 14), Gadsa = sample(letters, 9)))
+> 
+> 
+> cleanEx()
 > nameEx("gconvert")
 > ### * gconvert
 > 
@@ -65,6 +81,13 @@ The following object(s) are masked from 'package:plyr':
 > 
 > ### ** Examples
 > glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+> generate_gcocoa_query(glist)
+>a
+pax6 klf9
+
+>b
+nanog Pou5f1
+
 > 
 > 
 > cleanEx()
@@ -291,7 +314,7 @@ b_c "b" "c"
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.108 0.016 3.003 0 0 
+Time elapsed:  1.154 0.016 3.362 0 0 
 > grDevices::dev.off()
 null device 
           1 

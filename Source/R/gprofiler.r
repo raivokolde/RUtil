@@ -205,6 +205,7 @@ gconvert = function(ids, organism="hsapiens", target="ENSG", df = T) {
 #' @author  Raivo Kolde <rkolde@@gmail.com>
 #' @examples
 #'  glist = list(a = c("pax6", "klf9"), b = c("nanog", "Pou5f1"))
+#' 	generate_gcocoa_query(glist)
 #' @export
 generate_gcocoa_query = function(glist){
 	if(is.null(names(glist))){
@@ -212,7 +213,7 @@ generate_gcocoa_query = function(glist){
 	}
 	for(i in names(glist)){
 		cat(sprintf(">%s\n", i))
-		cat(int[[i]])
+		cat(glist[[i]])
 		cat("\n\n")
 	}
 }

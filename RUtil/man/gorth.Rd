@@ -1,7 +1,8 @@
 \name{gorth}
 \alias{gorth}
 \title{Find orthologs.}
-\usage{gorth(genelist, source_organism="mmusculus", target_organism="hsapiens", mthreshold=3, df=T)
+\usage{gorth(genelist, source_organism="mmusculus", target_organism="hsapiens",
+    mthreshold=3, df=T)
 }
 \description{Find orthologs.}
 \details{Wrapper for g:Orth web toolkit. The organism names are constructed, by combining the first letter of 

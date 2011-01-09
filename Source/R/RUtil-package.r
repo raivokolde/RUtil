@@ -3,6 +3,6 @@
 #' @name RUtil-package
 #' @docType package
 #' 
-#' @import stringr ggplot2 RCurl
+#' @import stringr ggplot2 RCurl grid
 #' 
 NA

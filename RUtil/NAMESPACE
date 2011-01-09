@@ -1,6 +1,7 @@
+import(stringr, ggplot2, RCurl, grid)
+export(bubbleplot)
 export(gorth)
 export(gprofiler)
 export(gconvert)
 export(generate_gcocoa_query)
 export(make_unique_comb)
-import(stringr, ggplot2, RCurl)
