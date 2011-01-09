@@ -84,10 +84,10 @@ bubbleplot = function(lists, percentage = TRUE){
 		stop("Please provide at least 2 lists")
 	}
 	if(n == 2){
-		bubbleplot2l(lists, percentage = TRUE)
+		bubbleplot2l(lists, percentage = percentage)
 	}
 	if(n > 2){
-		bubbleplot3l(lists[1:3], percentage = TRUE)
+		bubbleplot3l(lists[1:3], percentage = percentage)
 	}
 }
 
