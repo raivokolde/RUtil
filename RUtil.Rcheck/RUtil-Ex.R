@@ -92,6 +92,31 @@ flush(stderr()); flush(stdout())
 make_unique_comb(letters[1:3])
 
 
+cleanEx()
+nameEx("plotROC")
+### * plotROC
+
+flush(stderr()); flush(stdout())
+
+### Name: plotROC
+### Title: Plot ROC curve...
+### Aliases: plotROC
+
+### ** Examples
+data = data.frame(Probability = runif(300))
+data$Class = rbinom(300, 1, prob = 1 - data$Probability)
+#plotROC(data)
+
+data$Algorithm = sample(c("A", "B", "C"), 300, replace = TRUE)
+#plotROC(data)
+
+data$Replicate = factor(sample(1:5, nrow(data), replace = TRUE))
+#plotROC(data)
+
+data$Replicate = factor(sample(1:5, nrow(data), replace = TRUE))
+#plotROC(data)
+
+
 ### * <FOOTER>
 ###
 cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")

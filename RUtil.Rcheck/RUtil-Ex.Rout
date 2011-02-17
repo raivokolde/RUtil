@@ -1,7 +1,8 @@
 
-R version 2.11.1 (2010-05-31)
+R version 2.12.1 (2010-12-16)
 Copyright (C) 2010 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
+Platform: x86_64-apple-darwin9.8.0/x86_64 (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -311,10 +312,35 @@ a_c "a" "c"
 b_c "b" "c"
 > 
 > 
+> cleanEx()
+> nameEx("plotROC")
+> ### * plotROC
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: plotROC
+> ### Title: Plot ROC curve...
+> ### Aliases: plotROC
+> 
+> ### ** Examples
+> data = data.frame(Probability = runif(300))
+> data$Class = rbinom(300, 1, prob = 1 - data$Probability)
+> #plotROC(data)
+> 
+> data$Algorithm = sample(c("A", "B", "C"), 300, replace = TRUE)
+> #plotROC(data)
+> 
+> data$Replicate = factor(sample(1:5, nrow(data), replace = TRUE))
+> #plotROC(data)
+> 
+> data$Replicate = factor(sample(1:5, nrow(data), replace = TRUE))
+> #plotROC(data)
+> 
+> 
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.154 0.016 3.362 0 0 
+Time elapsed:  1.215 0.023 2.91 0 0 
 > grDevices::dev.off()
 null device 
           1 

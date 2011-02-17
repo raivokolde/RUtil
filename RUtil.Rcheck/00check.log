@@ -1,20 +1,22 @@
-* using log directory '/Users/Kolde/Raivo/Projects/RUtil/RUtil.Rcheck'
-* using R version 2.11.1 (2010-05-31)
+* using log directory ‘/Users/Kolde/Raivo/Projects/RUtil/RUtil.Rcheck’
+* using R version 2.12.1 (2010-12-16)
+* using platform: x86_64-apple-darwin9.8.0 (64-bit)
 * using session charset: UTF-8
-* checking for file 'RUtil/DESCRIPTION' ... OK
-* this is package 'RUtil' version '0.02'
+* checking for file ‘RUtil/DESCRIPTION’ ... OK
+* this is package ‘RUtil’ version ‘0.03’
 * checking package name space information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking for executable files ... OK
-* checking whether package 'RUtil' can be installed ... OK
+* checking whether package ‘RUtil’ can be installed ... OK
 * checking package directory ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking index information ... OK
-* checking package subdirectories ... OK
+* checking package subdirectories ... WARNING
+Subdirectory 'inst' contains no files.
 * checking R files for non-ASCII characters ... OK
 * checking R files for syntax errors ... OK
 * checking whether the package can be loaded ... OK
@@ -26,7 +28,12 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+calcCurve : <anonymous>: no visible binding for global variable ‘Class’
+plotROC: no visible binding for global variable ‘TN’
+plotROC: no visible binding for global variable ‘TP’
+plotROC: no visible binding for global variable ‘Algorithm’
+plotROC: no visible binding for global variable ‘Replicate’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
@@ -34,5 +41,9 @@
 * checking for code/documentation mismatches ... OK
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
 * checking examples ... OK
 * checking PDF version of manual ... OK
+WARNING: There was 1 warning, see
+  ‘/Users/Kolde/Raivo/Projects/RUtil/RUtil.Rcheck/00check.log’
+for details

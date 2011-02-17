@@ -1,5 +1,5 @@
 Package: RUtil
-Version: 0.02
+Version: 0.03
 License: GPL (>= 2)
 Description: A package collecting useful R code snippets from different
         projects made by Raivo Kolde.
@@ -8,6 +8,6 @@ Author: Raivo Kolde <rkolde@gmail.com>
 Maintainer: Raivo Kolde <rkolde@gmail.com>
 Depends: R (>= 2.10)
 Imports: plyr, reshape, stringr, ggplot2, RCurl, grid
-Collate: 'RUtil-package.r' 'bubbleplot.r' 'gprofiler.r'
-        'make_unique_comb.r'
-Built: R 2.11.1; ; 2011-01-09 15:03:10 UTC; unix
+Collate: 'bubbleplot.r' 'ggplot2_themes.r' 'gprofiler.r'
+        'make_unique_comb.r' 'ROC.r' 'RUtil-package.r'
+Built: R 2.12.1; ; 2011-02-17 13:34:23 UTC; unix
