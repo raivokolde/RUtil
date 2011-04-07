@@ -103,12 +103,12 @@ nanog Pou5f1
 > 
 > ### ** Examples
 > gorth(c("Klf4", "Pax5", "Sox2", "Nanog"), source_organism = "mmusculus", target_organism = "hsapiens")
-  Source     Target
-1   KLF4       KLF4
-2  NANOG      NANOG
-3  NANOG AC007536.1
-4   PAX5       PAX5
-5   SOX2       SOX2
+  Source  Target
+1   KLF4    KLF4
+2  NANOG   NANOG
+3  NANOG NANOGP1
+4   PAX5    PAX5
+5   SOX2    SOX2
 > 
 > 
 > cleanEx()
@@ -124,173 +124,193 @@ nanog Pou5f1
 > ### ** Examples
 > gprofiler(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
    query.number significant  p.value term.size query.size overlap.size
-1             1           1 1.58e-05      1209          4            4
-2             1           1 7.84e-05      1805          4            4
-3             1           1 1.32e-06       651          4            4
-4             1           1 9.77e-06       260          4            3
-5             1           1 9.00e-06       253          4            3
-6             1           1 6.76e-06       230          4            3
-7             1           1 2.23e-06       159          4            3
-8             1           1 4.55e-07        94          4            3
-9             1           1 1.11e-07        59          4            3
-10            1           1 5.52e-08        47          4            3
-11            1           1 5.53e-05      1654          4            4
-12            1           1 3.61e-05      1487          4            4
-13            1           1 1.66e-06       689          4            4
-14            1           1 4.58e-07       500          4            4
-15            1           1 1.20e-06       636          4            4
-16            1           1 6.66e-05      1733          4            4
-17            1           1 1.25e-06       642          4            4
-18            1           1 4.40e-07       495          4            4
-19            1           1 6.94e-05      1751          4            4
-20            1           1 5.97e-05      1686          4            4
-21            1           1 2.23e-08        35          4            3
-22            1           1 1.23e-05       281          4            3
-23            1           1 4.36e-07       494          4            4
-24            1           1 1.43e-07       374          4            4
-25            1           1 7.65e-05       517          4            3
-26            1           1 7.03e-06       233          4            3
-27            1           1 6.61e-07       548          4            4
-28            1           1 6.18e-07       539          4            4
-29            1           1 5.52e-07       524          4            4
-30            1           1 1.12e-08        28          4            3
-31            1           1 9.96e-09        27          4            3
-32            1           1 6.08e-05      1694          4            4
-33            1           1 1.52e-06       675          4            4
-34            1           1 3.08e-07       453          4            4
-35            1           1 1.38e-07       371          4            4
-36            1           1 9.88e-06       261          4            3
-37            1           1 1.10e-04       584          4            3
-38            1           1 7.21e-06       235          4            3
-39            1           1 2.98e-05      1418          4            4
-40            1           1 1.37e-04      2075          4            4
-41            1           1 3.91e-06       854          4            4
+1             1           1 7.86e-05      1832          4            4
+2             1           1 1.91e-05       330          4            3
+3             1           1 1.51e-05       305          4            3
+4             1           1 4.79e-06       208          4            3
+5             1           1 1.14e-06       129          4            3
+6             1           1 2.29e-07        76          4            3
+7             1           1 1.06e-07        59          4            3
+8             1           1 2.29e-05      1346          4            4
+9             1           1 2.09e-05       340          4            3
+10            1           1 1.06e-04      1976          4            4
+11            1           1 9.67e-05      1929          4            4
+12            1           1 6.01e-08        49          4            3
+13            1           1 4.20e-05        52          4            2
+14            1           1 9.25e-05      1908          4            4
+15            1           1 1.01e-04      1948          4            4
+16            1           1 3.04e-06       813          4            4
+17            1           1 7.26e-07       569          4            4
+18            1           1 2.32e-06       760          4            4
+19            1           1 7.21e-07       568          4            4
+20            1           1 8.41e-05      1863          4            4
+21            1           1 1.78e-05       322          4            3
+22            1           1 2.24e-05       348          4            3
+23            1           1 3.64e-05       409          4            3
+24            1           1 6.82e-05      1768          4            4
+25            1           1 2.26e-05       349          4            3
+26            1           1 2.12e-06       743          4            4
+27            1           1 7.01e-07       564          4            4
+28            1           1 2.25e-07       425          4            4
+29            1           1 2.33e-08        36          4            3
+30            1           1 1.03e-06       621          4            4
+31            1           1 9.54e-07       609          4            4
+32            1           1 8.63e-07       594          4            4
+33            1           1 7.42e-07       572          4            4
+34            1           1 1.08e-05       273          4            3
+35            1           1 1.62e-08        32          4            3
+36            1           1 9.19e-05      1905          4            4
+37            1           1 2.49e-06       774          4            4
+38            1           1 1.71e-05       318          4            3
+39            1           1 7.54e-05      1813          4            4
+40            1           1 1.81e-06       715          4            4
+41            1           1 4.65e-07       509          4            4
+42            1           1 2.09e-07       417          4            4
+43            1           1 1.33e-05       292          4            3
+44            1           1 6.48e-06       230          4            3
+45            1           1 3.91e-06       866          4            4
+46            1           1 3.91e-06       866          4            4
    precision recall    term.id domain subgraph.number
-1      1.000  0.003 GO:0009653     BP               3
-2      1.000  0.002 GO:0048513     BP               3
-3      1.000  0.006 GO:0009887     BP               3
-4      0.750  0.012 GO:0048729     BP               3
-5      0.750  0.012 GO:0009991     BP               2
-6      0.750  0.013 GO:0031667     BP               2
-7      0.750  0.019 GO:0007584     BP               2
-8      0.750  0.032 GO:0033273     BP               2
-9      0.750  0.051 GO:0033189     BP               2
-10     0.750  0.064 GO:0032526     BP               2
-11     1.000  0.002 GO:0048519     BP               5
-12     1.000  0.003 GO:0048523     BP               5
-13     1.000  0.006 GO:0009892     BP               5
-14     1.000  0.008 GO:0051172     BP               5
-15     1.000  0.006 GO:0031324     BP               5
-16     1.000  0.002 GO:0051252     BP               5
-17     1.000  0.006 GO:0010605     BP               5
-18     1.000  0.008 GO:0010629     BP               5
-19     1.000  0.002 GO:0048869     BP               5
-20     1.000  0.002 GO:0030154     BP               5
-21     0.750  0.086 GO:0048863     BP               5
-22     0.750  0.011 GO:0051093     BP               5
-23     1.000  0.008 GO:0045934     BP               5
-24     1.000  0.011 GO:0051253     BP               5
-25     0.750  0.006 GO:0045595     BP               5
-26     0.750  0.013 GO:0045596     BP               5
-27     1.000  0.007 GO:0009890     BP               5
-28     1.000  0.007 GO:0031327     BP               5
-29     1.000  0.008 GO:0010558     BP               5
-30     0.750  0.107 GO:0048864     BP               5
-31     0.750  0.111 GO:0019827     BP               5
-32     1.000  0.002 GO:0006355     BP               5
-33     1.000  0.006 GO:0006357     BP               5
-34     1.000  0.009 GO:0016481     BP               5
-35     1.000  0.011 GO:0045892     BP               5
-36     0.750  0.011 GO:0000122     BP               5
-37     0.750  0.005 GO:0044451     CC               4
-38     0.750  0.013 GO:0005667     CC               4
-39     1.000  0.003 GO:0030528     MF               1
-40     1.000  0.002 GO:0003677     MF               1
-41     1.000  0.005 GO:0003700     MF               1
+1      1.000  0.002 GO:0048513     BP               6
+2      0.750  0.009 GO:0009991     BP               1
+3      0.750  0.010 GO:0031667     BP               1
+4      0.750  0.014 GO:0007584     BP               1
+5      0.750  0.023 GO:0033273     BP               1
+6      0.750  0.039 GO:0033189     BP               1
+7      0.750  0.051 GO:0032526     BP               1
+8      1.000  0.003 GO:0009653     BP               3
+9      0.750  0.009 GO:0048729     BP               3
+10     1.000  0.002 GO:0048869     BP               2
+11     1.000  0.002 GO:0030154     BP               2
+12     0.750  0.061 GO:0048863     BP               2
+13     0.500  0.038 GO:0001708     BP               2
+14     1.000  0.002 GO:0032774     BP               2
+15     1.000  0.002 GO:0048519     BP               2
+16     1.000  0.005 GO:0009892     BP               2
+17     1.000  0.007 GO:0051172     BP               2
+18     1.000  0.005 GO:0010605     BP               2
+19     1.000  0.007 GO:0010629     BP               2
+20     1.000  0.002 GO:0051252     BP               2
+21     0.750  0.009 GO:0051093     BP               2
+22     0.750  0.009 GO:0023057     BP               2
+23     0.750  0.007 GO:0048585     BP               2
+24     1.000  0.002 GO:0048523     BP               2
+25     0.750  0.009 GO:0010648     BP               2
+26     1.000  0.005 GO:0031324     BP               2
+27     1.000  0.007 GO:0045934     BP               2
+28     1.000  0.009 GO:0051253     BP               2
+29     0.750  0.083 GO:0048864     BP               2
+30     1.000  0.006 GO:0009890     BP               2
+31     1.000  0.007 GO:0031327     BP               2
+32     1.000  0.007 GO:0010558     BP               2
+33     1.000  0.007 GO:2000113     BP               2
+34     0.750  0.011 GO:0045596     BP               2
+35     0.750  0.094 GO:0019827     BP               2
+36     1.000  0.002 GO:0006351     BP               2
+37     1.000  0.005 GO:0006366     BP               2
+38     0.750  0.009 GO:0009968     BP               2
+39     1.000  0.002 GO:0006355     BP               2
+40     1.000  0.006 GO:0006357     BP               2
+41     1.000  0.008 GO:0016481     BP               2
+42     1.000  0.010 GO:0045892     BP               2
+43     0.750  0.010 GO:0000122     BP               2
+44     0.750  0.013 GO:0005667     CC               5
+45     1.000  0.005 GO:0001071     MF               4
+46     1.000  0.005 GO:0003700     MF               4
                                                                                       term.name
-1                                                            anatomical structure morphogenesis
-2                                                                             organ development
-3                                                                           organ morphogenesis
-4                                                                          tissue morphogenesis
-5                                                            response to extracellular stimulus
-6                                                                   response to nutrient levels
-7                                                                          response to nutrient
-8                                                                           response to vitamin
-9                                                                         response to vitamin A
-10                                                                    response to retinoic acid
-11                                                    negative regulation of biological process
-12                                                      negative regulation of cellular process
-13                                                     negative regulation of metabolic process
-14                                   negative regulation of nitrogen compound metabolic process
-15                                            negative regulation of cellular metabolic process
-16                                                          regulation of RNA metabolic process
-17                                       negative regulation of macromolecule metabolic process
-18                                                       negative regulation of gene expression
-19                                                               cellular developmental process
-20                                                                         cell differentiation
-21                                                                    stem cell differentiation
-22                                                 negative regulation of developmental process
-23 negative regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
-24                                                 negative regulation of RNA metabolic process
-25                                                           regulation of cell differentiation
-26                                                  negative regulation of cell differentiation
-27                                                  negative regulation of biosynthetic process
-28                                         negative regulation of cellular biosynthetic process
-29                                    negative regulation of macromolecule biosynthetic process
-30                                                                        stem cell development
-31                                                                        stem cell maintenance
-32                                                   regulation of transcription, DNA-dependent
-33                                  regulation of transcription from RNA polymerase II promoter
-34                                                         negative regulation of transcription
-35                                          negative regulation of transcription, DNA-dependent
-36                         negative regulation of transcription from RNA polymerase II promoter
-37                                                                             nucleoplasm part
-38                                                                 transcription factor complex
-39                                                             transcription regulator activity
-40                                                                                  DNA binding
-41                                                                transcription factor activity
+1                                                                             organ development
+2                                                            response to extracellular stimulus
+3                                                                   response to nutrient levels
+4                                                                          response to nutrient
+5                                                                           response to vitamin
+6                                                                         response to vitamin A
+7                                                                     response to retinoic acid
+8                                                            anatomical structure morphogenesis
+9                                                                          tissue morphogenesis
+10                                                               cellular developmental process
+11                                                                         cell differentiation
+12                                                                    stem cell differentiation
+13                                                                      cell fate specification
+14                                                                     RNA biosynthetic process
+15                                                    negative regulation of biological process
+16                                                     negative regulation of metabolic process
+17                                   negative regulation of nitrogen compound metabolic process
+18                                       negative regulation of macromolecule metabolic process
+19                                                       negative regulation of gene expression
+20                                                          regulation of RNA metabolic process
+21                                                 negative regulation of developmental process
+22                                                             negative regulation of signaling
+23                                                  negative regulation of response to stimulus
+24                                                      negative regulation of cellular process
+25                                                    negative regulation of cell communication
+26                                            negative regulation of cellular metabolic process
+27 negative regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
+28                                                 negative regulation of RNA metabolic process
+29                                                                        stem cell development
+30                                                  negative regulation of biosynthetic process
+31                                         negative regulation of cellular biosynthetic process
+32                                    negative regulation of macromolecule biosynthetic process
+33                           negative regulation of cellular macromolecule biosynthetic process
+34                                                  negative regulation of cell differentiation
+35                                                                        stem cell maintenance
+36                                                                 transcription, DNA-dependent
+37                                                transcription from RNA polymerase II promoter
+38                                                   negative regulation of signal transduction
+39                                                   regulation of transcription, DNA-dependent
+40                                  regulation of transcription from RNA polymerase II promoter
+41                                                         negative regulation of transcription
+42                                          negative regulation of transcription, DNA-dependent
+43                         negative regulation of transcription from RNA polymerase II promoter
+44                                                                 transcription factor complex
+45                                           nucleic acid binding transcription factor activity
+46                                  sequence-specific DNA binding transcription factor activity
    relative.depth
 1               1
 2               1
 3               2
-4               1
-5               1
-6               2
-7               3
-8               4
-9               5
-10              6
-11              1
-12              2
+4               3
+5               4
+6               5
+7               6
+8               1
+9               1
+10              1
+11              2
+12              3
 13              2
-14              3
-15              3
-16              1
-17              1
-18              2
-19              1
-20              2
-21              3
+14              1
+15              1
+16              2
+17              3
+18              1
+19              2
+20              1
+21              1
 22              1
 23              1
-24              2
-25              1
+24              1
+25              2
 26              2
-27              1
-28              2
-29              2
+27              3
+28              4
+29              1
 30              1
 31              2
-32              1
-33              2
+32              2
+33              3
 34              1
 35              2
-36              3
-37              1
-38              2
+36              1
+37              2
+38              1
 39              1
-40              1
-41              2
+40              2
+41              1
+42              2
+43              3
+44              1
+45              1
+46              2
 > 
 > 
 > cleanEx()
@@ -340,7 +360,7 @@ b_c "b" "c"
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.215 0.023 2.91 0 0 
+Time elapsed:  1.195 0.028 6.478 0 0 
 > grDevices::dev.off()
 null device 
           1 

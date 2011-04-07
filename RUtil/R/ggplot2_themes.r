@@ -12,9 +12,9 @@ theme_bw_raivo = function(base_size = 12, base_family = ""){
         axis.text.y = theme_text(family = base_family, size = base_size * 
             0.8, lineheight = 0.9, hjust = 1), axis.ticks = theme_segment(colour = "black", 
             size = 0.2), axis.title.x = theme_text(family = base_family, 
-            size = base_size, vjust = 1), axis.title.y = theme_text(family = base_family, 
+            size = base_size, vjust = 0.5), axis.title.y = theme_text(family = base_family, 
             size = base_size, angle = 90, vjust = 0.5), axis.ticks.length = unit(0.3, 
-            "lines"), axis.ticks.margin = unit(0, "lines"), 
+            "lines"), axis.ticks.margin = unit(0.1, "lines"), 
         legend.background = theme_rect(colour = NA), legend.key = theme_rect(colour = "grey80"), 
         legend.key.size = unit(1.2, "lines"), legend.key.height = NA, 
         legend.key.width = NA, legend.text = theme_text(family = base_family, 
@@ -35,3 +35,7 @@ theme_bw_raivo = function(base_size = 12, base_family = ""){
             1.2), plot.margin = unit(c(1, 1, 0.5, 0.5), "lines")), 
         class = "options")
 }
+
+#qplot(1:10, 1:10, xlab = "baasdfasfasdfasdfasdfasdfasdf") + theme_bw_raivo()
+
+

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.6.29)  17 FEB 2011 15:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.6.29)  7 APR 2011 10:24
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/private/var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-/RtmpXCmSrC/Rd2pdf65
-240186/Rd2.tex
+**/private/var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-/Rtmp1bzkum/Rd2pdf79
+bb10f4/Rd2.tex
 
-(/private/var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-/RtmpXCmSrC/Rd2pdf652
-40186/Rd2.tex
+(/private/var/folders/Yn/Yn8vPo5iG3qiEsyJ8D3j6++++TI/-Tmp-/Rtmp1bzkum/Rd2pdf79b
+b10f4/Rd2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
@@ -753,8 +753,13 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [7]
 (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-) [8]
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+)
+Overfull \hbox (48.78088pt too wide) in paragraph at lines 357--357
+ []\T1/pcr/m/n/10 plotROC(data, bootstrap=100, colours=NA, text_size=4, all_rep
+licates=TRUE)[] 
+ []
+
+[8] (/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) (./Rd2.ind
 [9] [10
@@ -768,7 +773,7 @@ Here is how much of TeX's memory you used:
  8627 multiletter control sequences out of 15000+200000
  38829 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 47i,5n,34p,356b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,5n,34p,356b,568s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Rfn.data} has been referenced but d
 oes not exist, replaced by a fixed one
 
@@ -779,7 +784,7 @@ live/2009/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/200
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on Rd2.pdf (10 pages, 114046 bytes).
+Output written on Rd2.pdf (10 pages, 114107 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)

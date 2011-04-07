@@ -1,7 +1,7 @@
 \name{plotROC}
 \alias{plotROC}
 \title{Plot ROC curve...}
-\usage{plotROC(data, bootstrap=100, colours=NA, text_size=4)
+\usage{plotROC(data, bootstrap=100, colours=NA, text_size=4, all_replicates=TRUE)
 }
 \description{Plot ROC curve}
 \details{Input data frame has to contain two columns Probability and Class. Probability refers 
@@ -19,6 +19,7 @@ contain also Column Replicate.}
 \item{colours}{what colours should the lines be}
 \item{text_size}{AUC text size}
 \item{bootstrap}{number of bootstrap samples}
+\item{all_replicates}{logical if we show the repilcates as well}
 }
 \examples{data = data.frame(Probability = runif(300))
 data$Class = rbinom(300, 1, prob = 1 - data$Probability)

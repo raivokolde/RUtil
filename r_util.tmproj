@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>../RUtil/Source/run_roxygen.r</string>
+	<string>Source/run_roxygen.r</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -14,14 +14,14 @@
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
-			<string>../RUtil/Source</string>
+			<string>Source</string>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>163</integer>
 	<key>metaData</key>
 	<dict>
-		<key>../RUtil/Source/DESCRIPTION</key>
+		<key>Source/DESCRIPTION</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -35,7 +35,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>../RUtil/Source/NAMESPACE</key>
+		<key>Source/NAMESPACE</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -49,7 +49,21 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>../RUtil/Source/R/RUtil-package.r</key>
+		<key>Source/R/ROC.r</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>236</integer>
+				<key>line</key>
+				<integer>138</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>Source/R/RUtil-package.r</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -63,7 +77,21 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>../RUtil/Source/R/gprofiler.r</key>
+		<key>Source/R/ggplot2_themes.r</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>37</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>Source/R/gprofiler.r</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -77,7 +105,7 @@
 			<key>firstVisibleLine</key>
 			<integer>63</integer>
 		</dict>
-		<key>../RUtil/Source/R/make_unique_comb.r</key>
+		<key>Source/R/make_unique_comb.r</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -107,33 +135,51 @@
 				<integer>12</integer>
 			</dict>
 		</dict>
-		<key>../RUtil/Source/run_roxygen.r</key>
+		<key>Source/run_roxygen.r</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>11</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>../RUtil/Source/run_roxygen.r</string>
-		<string>../RUtil/Source/R/RUtil-package.r</string>
-		<string>../RUtil/Source/NAMESPACE</string>
-		<string>../RUtil/Source/R/gprofiler.r</string>
-		<string>../RUtil/Source/DESCRIPTION</string>
-		<string>../RUtil/Source/R/make_unique_comb.r</string>
+		<string>Source/run_roxygen.r</string>
+		<string>Source/R/RUtil-package.r</string>
+		<string>Source/NAMESPACE</string>
+		<string>Source/R/gprofiler.r</string>
+		<string>Source/DESCRIPTION</string>
+		<string>Source/R/make_unique_comb.r</string>
+		<string>Source/R/ggplot2_themes.r</string>
+		<string>Source/R/ROC.r</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{13, 4}, {840, 874}}</string>
+	<string>{{720, 4}, {720, 874}}</string>
 </dict>
 </plist>

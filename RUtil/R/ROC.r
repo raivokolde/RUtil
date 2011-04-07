@@ -58,8 +58,8 @@ calcAUC = function(curves, bootstrap = 0){
 	
 	if(length(unique(curves$Replicate)) > 1){
 		qboot = ddply(auc, "Algorithm", function(x){
-			q = quantile(x$auc, probs = c(0.025, 0.975))
-			return(data.frame(q0.025 = q[1], q0.975 = q[2]))
+			q = 1.96 * sd(x$auc)
+			return(data.frame(q = q))
 		})
 		auc2 = merge(auc2, qboot)
 	}
@@ -73,8 +73,8 @@ calcAUC = function(curves, bootstrap = 0){
 		
 		boot = rdply(bootstrap, f(curves), .progress = "text")
 		qboot = ddply(boot, "Algorithm", function(x){
-			q = quantile(x$auc, probs = c(0.025, 0.975))
-			return(data.frame(q0.025 = q[1], q0.975 = q[2]))
+			q = 1.96 * sd(x$auc)
+			return(data.frame(q = q))
 		})
 		auc2 = merge(auc2, qboot)
 	}
@@ -103,6 +103,7 @@ calcAUC = function(curves, bootstrap = 0){
 #' @param colours what colours should the lines be
 #' @param text_size AUC text size
 #' @param bootstrap number of bootstrap samples
+#' @param all_replicates logical if we show the repilcates as well
 #' @return  Decription of return value
 #' @author  Raivo Kolde <rkolde@@gmail.com>
 #' @examples
@@ -120,12 +121,12 @@ calcAUC = function(curves, bootstrap = 0){
 #' #plotROC(data)
 #' 
 #' @export
-plotROC = function(data, bootstrap = 100, colours = NA, text_size = 4){
+plotROC = function(data, bootstrap = 100, colours = NA, text_size = 4, all_replicates = TRUE){
 	curve = calcCurve(data)
 	auc = calcAUC(curve, bootstrap = bootstrap)
 	
 	if(ncol(auc) > 2){
-		auc = paste(sprintf("AUC(%s) = %.3f (%.3f - %.3f)", auc$Algorithm, auc$auc, auc[, 3], auc[, 4]), collapse = "\n")
+		auc = paste(sprintf("AUC(%s) = %.3f (+/- %.3f)", auc$Algorithm, auc$auc, auc[, 3]), collapse = "\n")
 	}
 	else{
 		auc = paste(sprintf("AUC(%s) = %.3f", auc$Algorithm, auc$auc), collapse = "\n")
@@ -135,12 +136,12 @@ plotROC = function(data, bootstrap = 100, colours = NA, text_size = 4){
 	data2$Replicate = 1
 	average = calcCurve(data2)
 	
-	p = qplot(x = TN, y = TP, geom = "line", linetype = Algorithm, alpha = I(1), size = I(1), colour = Algorithm, data = average)	+ annotate(geom = "text", x = 1, y = 0, label = auc, colour = "grey15", size = text_size, hjust = 1, vjust = 0) + theme_bw()
+	p = qplot(x = TN, y = TP, geom = "line", linetype = Algorithm, alpha = I(1), colour = Algorithm, data = average)	+ annotate(geom = "text", x = 1, y = 0, label = auc, colour = "grey15", size = text_size, hjust = 1, vjust = 0) + theme_bw()
 	if(!is.na(colours[1])){
 		p = p + scale_colour_manual(values = colours)
 	}
 	
-	if(length(unique(data$Replicate)) > 1){
+	if(length(unique(data$Replicate)) > 1 & all_replicates){
 		p = p + geom_line(aes(x = TN, y = TP, group = interaction(Replicate, Algorithm), linetype = Algorithm, colour = Algorithm), alpha = 0.5, data = curve)
 	}
 	return(p)
