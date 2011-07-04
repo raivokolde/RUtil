@@ -70,13 +70,14 @@ gorth <- function(genelist, source_organism = "mmusculus", target_organism = "hs
 #' p-values.
 #' @param significant logical indicating if all or only statistically significant results should be 
 #' returned.
+#' @param custom_background vector of gene names making up the background
 #' @return Data frame with the Enricment analysis results. If input consisted of several lists the corresponding list is indicated with a variable 'query number'
 #' @references  J. Reimand, M. Kull, H. Peterson, J. Hansen, J. Vilo: g:Profiler - a web-based toolset for functional profiling of gene lists from large-scale experiments (2007) NAR 35 W193-W200
 #' @author  Juri Reimand <jyri.reimand@@ut.ee>
 #' @examples
 #'  gprofiler(c("Klf4", "Pax5", "Sox2", "Nanog"), organism = "mmusculus")
 #' @export
-gprofiler <- function(organism='scerevisiae', query, ordered_query=0, significant=1) {
+gprofiler <- function(organism='scerevisiae', query, ordered_query=0, significant=1, custom_background = "") {
 	
 	query_url = ""
 
@@ -93,6 +94,13 @@ gprofiler <- function(organism='scerevisiae', query, ordered_query=0, significan
 	
 	my_url <- "http://biit.cs.ut.ee/gprofiler/gcocoa.cgi"
 	
+	custom_background = paste(custom_background, collapse = " ")
+	
+	custbg_cb = "0"
+	if(custom_background != ""){
+		custbg_cb = "1"
+	}
+	
 	raw_query <- postForm(my_url, 
 		organism=organism, 
 		output='mini', 
@@ -100,7 +108,9 @@ gprofiler <- function(organism='scerevisiae', query, ordered_query=0, significan
 		analytical="1", 
 		sort_by_structure="1", 
 		significant=as.character(significant), 
-		ordered_query=as.character(ordered_query)
+		ordered_query=as.character(ordered_query),
+		custbg_cb = custbg_cb,
+		custbg = custom_background
 	)
 
 	split_query <- unlist(strsplit(raw_query, split="\n"))

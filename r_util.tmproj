@@ -82,9 +82,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>51</integer>
 				<key>line</key>
-				<integer>37</integer>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -103,7 +103,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>63</integer>
+			<integer>175</integer>
 		</dict>
 		<key>Source/R/make_unique_comb.r</key>
 		<dict>
@@ -180,6 +180,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{720, 4}, {720, 874}}</string>
+	<string>{{1915, 437}, {720, 874}}</string>
 </dict>
 </plist>
