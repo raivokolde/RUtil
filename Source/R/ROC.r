@@ -4,7 +4,7 @@
 #' Calculate ROC curves based on ordered class data
 #'
 #' @param data Data as described in \code{\link{data}}
-#' @return  Returns a data frame like data, but with additional columns TP and TN
+#' @return  Returns a data frame like data, but with additional columns TP and FP
 #' @author  Raivo Kolde <rkolde@@gmail.com> 
 #' @export
 calcCurve = function(data){
@@ -24,7 +24,7 @@ calcCurve = function(data){
 	res = ddply(data, c("Algorithm", "Replicate"), function(d) {
 		d = d[order(d$Probability),]
 		d = transform(d, 
-			TN = cumsum(Class == levels(Class)[1])/sum(Class == levels(Class)[1]), 
+			FP = cumsum(Class == levels(Class)[1])/sum(Class == levels(Class)[1]), 
 			TP = cumsum(Class == levels(Class)[2])/sum(Class == levels(Class)[2])
 		)
 		return(d) 
@@ -47,7 +47,7 @@ calcCurve = function(data){
 #' @export
 calcAUC = function(curves, bootstrap = 0){
 	auc = ddply(curves, c("Algorithm", "Replicate"), function(d){
-		delta = c(0, d$TN[2:nrow(d)] - d$TN[1:(nrow(d) - 1)])
+		delta = c(0, d$FP[2:nrow(d)] - d$FP[1:(nrow(d) - 1)])
 		auc = sum(delta * d$TP)
 		data.frame(auc = auc)
 	})
@@ -136,13 +136,13 @@ plotROC = function(data, bootstrap = 100, colours = NA, text_size = 4, all_repli
 	data2$Replicate = 1
 	average = calcCurve(data2)
 	
-	p = qplot(x = TN, y = TP, geom = "line", linetype = Algorithm, alpha = I(1), colour = Algorithm, data = average)	+ annotate(geom = "text", x = 1, y = 0, label = auc, colour = "grey15", size = text_size, hjust = 1, vjust = 0) + theme_bw()
+	p = qplot(x = FP, y = TP, geom = "line", linetype = Algorithm, alpha = I(1), colour = Algorithm, data = average)	+ annotate(geom = "text", x = 1, y = 0, label = auc, colour = "grey15", size = text_size, hjust = 1, vjust = 0) + theme_bw()
 	if(!is.na(colours[1])){
 		p = p + scale_colour_manual(values = colours)
 	}
 	
 	if(length(unique(data$Replicate)) > 1 & all_replicates){
-		p = p + geom_line(aes(x = TN, y = TP, group = interaction(Replicate, Algorithm), linetype = Algorithm, colour = Algorithm), alpha = 0.5, data = curve)
+		p = p + geom_line(aes(x = FP, y = TP, group = interaction(Replicate, Algorithm), linetype = Algorithm, colour = Algorithm), alpha = 0.5, data = curve)
 	}
 	return(p)
 }

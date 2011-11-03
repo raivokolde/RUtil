@@ -8,7 +8,7 @@ roxygenize(package.dir = "Source", roxygen.dir = "RUtil", unlink.target = T, use
 cd ~/Raivo/Projects/RUtil/
 R CMD check RUtil
 R CMD build RUtil
-R CMD install RUtil_0.04.tar.gz 
+R CMD install RUtil_0.06.tar.gz 
 
 
 # Debug, kui kisab et dokument sisaldab mitte ascii tähti
