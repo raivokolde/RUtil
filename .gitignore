@@ -1,2 +1,6 @@
 RUtil.Rcheck/
 RUtil/
+*.tar.gz
+r_util.tmproj
+.RData
+.Rhistory
